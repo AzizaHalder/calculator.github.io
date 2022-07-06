@@ -1,0 +1,110 @@
+/* 
+html {
+    box-sizing: border-box;
+    
+} */
+body {
+    background-color: #d9c8b3;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* background-image: url("bubbletea.jpg"); 
+    background-position: center;
+    background-size: 200px 100px; */
+}
+.intro {
+    background-color:#d9c8b3;
+    padding: 1rem;
+    text-align: center;
+}
+h1 {
+    color:#ffffff;
+}
+.wrapper {
+    width: 80%;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #ddd5cb;
+}
+fieldset {
+    border: 2px solid #d9c8b3;
+    margin: 1rem;
+    padding: 0.5rem;
+    /* display: block; */
+}
+legend {
+    background-color: #d9c8b3;
+    color: #ffffff;
+    padding: 0.4rem;
+}
+#topping {
+    display: flex;
+    flex-direction: column;
+}
+/* section {
+    background: #000000;
+    padding: 10px;
+    color: #84a4cd;
+} */
+button {
+    background-color: #000000;
+    color: #6a6156;
+    padding: 0.35rem;
+}
+textarea {
+    padding: 1rem;
+}
+/* input[type="radio"],
+input[type="checkbox"], label {
+    accent-color: #d9c8b3;
+    cursor: pointer; 
+}   */
+label {
+    cursor: pointer;
+}
+.selection {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000000;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    top: 4px;
+}
+input:checked {
+    border: 2px solid #6a6156;
+}
+/* button,
+legend {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+} */
+
+button {
+    background-color:#6a6156;
+    color: #ffffff;
+
+
+}
+
+button:hover,
+button:focus {
+    color: #6a6156;
+    background-color: #d9c8b3;
+}
+
+button:active {
+    color: #6a6156;
+    outline: 1px solid #ffffff;
+}
+
