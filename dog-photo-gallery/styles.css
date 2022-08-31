@@ -1,3 +1,46 @@
 * {
     box-sizing: border-box;
 }
+
+.gallery-img {
+    display: none;
+    max-height: 600px;
+}
+
+.active {
+    display: block;
+}
+
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+}
+
+.btn {
+    background-color: #f3ca61;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px 0 0 0;
+}
+
+.prev {
+    margin-right: 15px;
+}
+
+.btn:disabled {
+    background-color: #cec8c8;
+    cursor: not-allowed;
+}
