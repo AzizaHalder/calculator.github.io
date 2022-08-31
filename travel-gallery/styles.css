@@ -1,0 +1,14 @@
+img {
+    border: 5px solid green;
+    height: 600px;
+    width: 450px;
+}
+
+button {
+    border: none;
+    background-color: #ff6161;
+    padding: 7px;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
